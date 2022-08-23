@@ -56,7 +56,7 @@ export default function Home() {
             <p>We are engrossed in providing high quality and reliable consultancy services for company registration.</p>
             <a href="/company-registrations" class="icon-link d-inline-flex align-items-center">
               Read More
-              <svg class="bi" width="1em" height="1em"></svg>
+               
             </a>
           </div>
           </a>
@@ -72,7 +72,7 @@ export default function Home() {
               <p>We help you provide all digital signature certificate related services at reasonable cost and premium service.</p>
               <a href="#" class="icon-link d-inline-flex align-items-center">
                 Read More
-                <svg class="bi" width="1em" height="1em"></svg>
+                 
               </a>
             </div>
           </a>
@@ -88,7 +88,7 @@ export default function Home() {
               <p>We are service provider engaged in rendering superior quality FCRA services to our valuable clients.</p>
               <a href="#" class="icon-link d-inline-flex align-items-center">
                 Read More
-                <svg class="bi" width="1em" height="1em"></svg>
+                 
               </a>
             </div></a>
 
@@ -103,7 +103,7 @@ export default function Home() {
             <p>We are engrossed in providing high quality and reliable consultancy services for company registration.</p>
             <a href="/company-registrations" class="icon-link d-inline-flex align-items-center">
               Read More
-              <svg class="bi" width="1em" height="1em"></svg>
+               
             </a>
           </div>
           </a>
@@ -119,7 +119,7 @@ export default function Home() {
               <p>We help you provide all digital signature certificate related services at reasonable cost and premium service.</p>
               <a href="#" class="icon-link d-inline-flex align-items-center">
                 Read More
-                <svg class="bi" width="1em" height="1em"></svg>
+                 
               </a>
             </div>
           </a>
@@ -135,9 +135,10 @@ export default function Home() {
               <p>We are service provider engaged in rendering superior quality FCRA services to our valuable clients.</p>
               <a href="#" class="icon-link d-inline-flex align-items-center">
                 Read More
-                <svg class="bi" width="1em" height="1em"></svg>
+                 
               </a>
-            </div></a>
+            </div>
+            </a>
         </div>
       </div>
 

@@ -3,18 +3,69 @@ import React from "react";
 export default () => {
 
   const footerlinks = {
-    sections: [{
+    sections: [
+    {
+      title: 'Company Registations',
+      links: [
+        {
+          title: "Private Limited Registations",
+          
+          url: "/company-registrations/private-company-registrations"
+        },
+        {
+          title: "One Person Company Registations",
+          
+          url: "/company-registrations"
+        },
+        {
+          title: "Shops And Establishment",
+          
+          url: "/company-registrations"
+        },
+        {
+          title: "Startup India Registration",
+          
+          url: "/company-registrations"
+        },
+        {
+          title: "Udyam Registration",
+          
+          url: "/company-registrations"
+        },
+        {
+          title: "Nidhi company",
+          
+          url: "/company-registrations"
+        }
+      ]
+    },
+    {
+      title: 'Corporate Services',
+      links: [
+        {
+          title: "GST Services",
+           url: "/company-registrations/private-company-registrations"
+        },
+        {
+          title: "HR Services",
+          
+          url: "/company-registrations"
+        },
+        {
+          title: "Digital Signatures",
+          
+          url: "/company-registrations"
+        },
+        {
+          title: "FCRA Services",
+          
+          url: "/company-registrations"
+        } 
+      ]
+    },{
       title: 'Company',
       links: [{ title: 'Home', url: '/' }, { title: 'About', url: '/about-us' }, { title: 'Contact', url: '/contact-us' },]
-    },
-    {
-      title: 'Services',
-      links: [{ title: 'Company Registrations', url: '/company-registrations' }, { title: 'Digital Signatures', url: '/about' }, { title: 'Contact', url: '/contact' },]
-    },
-    {
-      title: 'Additional Services',
-      links: [{ title: 'Private Limited Company Registrations', url: '/company-registrations' }, { title: 'Public Limited Company Registrations', url: '/about' }, { title: 'Contact', url: '/contact' },]
-    }]
+    },]
   }
   return (
     <>
@@ -41,19 +92,19 @@ export default () => {
         <div class="container">
           <footer class="py-5">
             <div class="row">
-              <div class="col-md-4 offset-md-1 mb-3">
+              <div class="col-md-3 mb-3">
                 <a href="/" title="CRR" class=" logo d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                  <img src="images/logo.jpeg" />
+                  <img src="/images/logo.jpeg" />
                 </a>
                 <div class="text-muted my-4"><div> Flat No: 501, MVS Heights</div><div>   Beside Balaji Temple, Vinayak Nagar,</div><div>  Madhapur-500081</div><div>  Landline: 9140-40050954</div><div>  Phone: +91-9985100360</div><div>  Email: info@crrcs.in</div></div>
               </div>
               {
                 footerlinks.sections.map((section) =>
-                  <div class="col-6 col-md-2 mb-3">
+                  <div class="col-6 col-md-3 mb-3">
                     <h5>{section.title}</h5>
                     <ul class="nav flex-column">
                       {section.links.map((link) =>
-                        <li class="nav-item mb-2"><a href="{link.url}" class="nav-link p-0 text-muted">{link.title}</a></li>
+                        <li class="nav-item mb-2"><a href={link.url} class="nav-link p-0 text-muted">{link.title}</a></li>
                       )
                       }
                     </ul>

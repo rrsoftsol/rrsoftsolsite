@@ -7,7 +7,7 @@ export default function Services() {
   const iconGRid = [
     {
       title: "Chat With Us",
-      desc: "We are always happy to chat with you during our business hours: Mon - Sat: 8am - 8pm CT"
+      desc: "We are always happy to chat with you during our business hours: Mon - Sat: 8am - 8pm"
     },
     {
       title: "Call Us",

@@ -1,8 +1,41 @@
 import Head from 'next/head'
-import Layout from "../components/layout";
+import Layout from "../../components/layout";
 import { Container, Row, Card, Button } from 'react-bootstrap'
 
 export default function Services() {
+
+  const services = [
+    {
+      heading: "Private Limited Registations",
+      subheading: "We are engrossed in providing high quality and reliable consultancy services for company registration.",
+      url: "/company-registrations/private-company-registrations"
+    },
+    {
+      heading: "One Person Company Registations",
+      subheading: "We are engrossed in providing high quality and reliable consultancy services for company registration.",
+      url: "/company-registrations"
+    },
+    {
+      heading: "Shops And Establishment",
+      subheading: "We are engrossed in providing high quality and reliable consultancy services for company registration.",
+      url: "/company-registrations"
+    },
+    {
+      heading: "Startup India Registration",
+      subheading: "We are engrossed in providing high quality and reliable consultancy services for company registration.",
+      url: "/company-registrations"
+    },
+    {
+      heading: "Udyam Registration",
+      subheading: "We are engrossed in providing high quality and reliable consultancy services for company registration.",
+      url: "/company-registrations"
+    },
+    {
+      heading: "Nidhi company",
+      subheading: "We are engrossed in providing high quality and reliable consultancy services for company registration.",
+      url: "/company-registrations"
+    }
+  ]
 
   const iconGRid = [
     {
@@ -24,40 +57,29 @@ export default function Services() {
 
   return (
     <Layout>
-     
+
       <div class="container px-4 py-5" id="featured-3">
-        <h2 class="pb-2 text-center">Our Professional Services</h2>
+        <h2 class="pb-2 text-center">Our Various Company Registration Services</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <a>
-             <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-collection" viewBox="0 0 16 16">
-                <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z" />
-              </svg>
-            </div>
-            <h2>Private Limited Registations</h2>
-            <p>We are engrossed in providing high quality and reliable consultancy services for company registration.</p>
-            <a href="/company-registrations" class="icon-link d-inline-flex align-items-center">
-              Read More
-              <svg class="bi" width="1em" height="1em"></svg>
+          {services.map((service) =>
+            <a>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-collection" viewBox="0 0 16 16">
+                    <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z" />
+                  </svg>
+                </div>
+                <h2>{service.heading}</h2>
+                <p>{service.subheading}</p>
+                <a href={service.url} class="icon-link d-inline-flex align-items-center">
+                  Read More
+
+                </a>
+              </div>
             </a>
-          </div>
-          </a>
-          <a>
-             <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-collection" viewBox="0 0 16 16">
-                <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z" />
-              </svg>
-            </div>
-            <h2>One Person Company Registations</h2>
-            <p>We are engrossed in providing high quality and reliable consultancy services for company registration.</p>
-            <a href="/company-registrations" class="icon-link d-inline-flex align-items-center">
-              Read More
-              <svg class="bi" width="1em" height="1em"></svg>
-            </a>
-          </div>
-          </a>
+          )
+          }
+
         </div>
       </div>
 
@@ -71,10 +93,10 @@ export default function Services() {
                 <svg viewBox="0 0 24 24">
                   <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"></path></svg>
                 <blockquote class="TwoColumnWithFeaturesAndTestimonial__Quote-sc-7wvgyg-19">
-                Best service provided. A new and yet best corporate advisors in town to solve the problem and provide consultation for the best.
+                  Best service provided. A new and yet best corporate advisors in town to solve the problem and provide consultation for the best.
                 </blockquote>
                 <div >Jaya Banerjee
-</div>
+                </div>
                 <div >Founder.</div>
 
               </div>
@@ -108,7 +130,7 @@ export default function Services() {
 
         </div>
       </div>
-      
+
     </Layout>
   )
 }

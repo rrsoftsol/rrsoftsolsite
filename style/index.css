@@ -38,6 +38,12 @@
   padding: 40px;
 }
 
+.dropdown:hover .dropdown-menu{
+  display: block;
+  width: 75rem;
+  left: -25rem;
+}
+
 .feature-icon {
   width: 4rem;
   height: 4rem;
