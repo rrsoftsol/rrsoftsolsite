@@ -20,7 +20,78 @@
   border-top: 1px solid #ccc;
 }
 
+.logo img {
+  width: 10rem;
+  height: auto;
+}
+
 .sml-logo {
   height: 1em;
   margin-left: 10px;
+}
+
+.nav-link:hover, .nav-link:focus {
+  border-bottom-color: var(--bs-nav-link-hover-color);
+}
+.feature {
+  background-color: rgba(247, 250, 252);
+  padding: 40px;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+.text-crr {
+  color: rgba(60, 13, 153);
+}
+
+.cta {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(233, 216, 253);
+}
+
+.cta svg {
+  position: absolute;
+  width: 24rem;
+  height: 24rem;
+  color: rgba(100, 21, 255);
+  opacity: 0.05;
+  left: -8rem;
+  bottom: -12rem;
+}
+
+.footer {
+  background-color: rgba(237, 242, 247);
+}
+
+
+.card .testimonials {
+  position: absolute;
+  max-width: 24rem;
+  z-index: 13;
+  background-color: rgba(60, 13, 153);
+  color: rgba(203, 213, 224);
+  margin-top: 15px;
+  padding: 2rem;
+  bottom: 1rem;
+  left: -2rem;
+
+}
+
+.card .testimonials svg {
+  position: absolute;
+  top: -1.25rem;
+  left: -1.5rem;
+  width: 3rem;
+  height: 3rem;
+  color: rgba(245, 101, 101);
+  opacity: 1;
+}
+
+.card .testimonials span {
+  margin-top: 24px;
 }
