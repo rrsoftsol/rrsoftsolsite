@@ -9,13 +9,12 @@ export default ({ children }) => {
     return (
         <div className="App">
             <Head>
-                <title>Top Chartered Accountant in Madhapur, Hyderabad, Telangana, India | CRR Corporte Services</title>
+                <title>RR Softsol - IT Solutions & Technology Company</title>
                 <link rel="icon" href="/favicon-32x32.png" />
                 <meta
                     name="description"
-                    content="Check out iPhone 12 XR Pro and iPhone 12 Pro Max. Visit your local store and for expert advice."
-                />
-
+                    content="RR Softsol - IT Solutions & Technology Company."
+                /> 
 
             </Head>
             <Header></Header>

@@ -44,8 +44,7 @@ body{
 
 .dropdown:hover .dropdown-menu{
   display: block;
-  width: 75rem;
-  left: -25rem;
+  width: 20rem; 
 }
 
 .feature-icon {
