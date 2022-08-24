@@ -52,7 +52,7 @@ export default function Services() {
                 </svg>
               </div>
               <h2>GST Services</h2>
-              <p>We help you provide all digital signature certificate related services at reasonable cost and premium service.</p>
+              <p>We can take care of your GST filing process and help to claim your right input credits.</p>
               <a href="#" class="icon-link d-inline-flex align-items-center">
                 Call to action
                  

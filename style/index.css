@@ -1,6 +1,10 @@
 /* ensure all pages have Bootstrap CSS */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
+body{
+  padding-top: 100px;
+}
+
 .md-container {
   max-width: 800px;
   padding-top: 2rem;

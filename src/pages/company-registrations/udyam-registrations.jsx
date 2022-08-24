@@ -42,7 +42,7 @@ export default function Services() {
           </div>
           <div class="col-lg-6">
             <h5 class="text-crr">Start Your Business</h5>
-            <h1 class="display-3 fw-bold lh-sm mb-3">Private Limited Company.</h1>
+            <h1 class="display-3 fw-bold lh-sm mb-3">Udyam Registrations.</h1>
             <p class="lead">We are We are engrossed in providing high quality and reliable consultancy services for company registration.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contact Us</button>
@@ -52,10 +52,47 @@ export default function Services() {
       </div>
 
       <div class="container">
-
-        <h2>What is a private limited company?</h2>
+        <h2>  What is Udyam Registration?</h2>
         <p>
-        A private limited company is a business entity held privately by shareholders. The liability is limited to the shares held by shareholders.
+
+          Udyam Registration is a government registration to provide a recognition certificate to micro, small and medium enterprises. The certificate contains a Unique Identification Number that helps leverage government reservations for other government plans.
+        </p>  <p>
+          Udyam registration was primarily called Udyog Aadhar registration and was launched by the Ministry of Micro, Small & Medium Enterprise as of 1st July 2020.
+        </p>  <p>
+          It is a hassle-free procedure of online registration, and all you need to do is attach a few necessary documents to complete the registration.
+        </p>
+
+        <h2>   Importance of Udyam Registration Certificate </h2>
+        <p>
+
+
+          Udyam Registration Certificate is the recognition certificate given to the enterprise. That contains a QR code that helps to access information related to enterprises.
+
+        </p>
+        <h2>
+          Characteristics of Udyam Registration </h2>
+
+
+        <ul>
+
+          <li>The procedure is online-based.
+          </li><li>Minimum requirement of documents like Aadhar and PAN card
+          </li><li>The registration is possible only once
+          </li><li>All the activities related to the enterprise should be mentioned under one Udyam Registration number, preferably if it is involved in many activities instead of one.
+
+          </li>
+          <li>The renewal of Old Udyog Aadhar cards to New Udyam registration is done by verifying the Aadhar/PAN card numbers.
+          </li>
+        </ul>
+
+
+
+        <h2>
+          Eligibility </h2>
+
+        <p>
+
+          Any new or existing enterprise can have Udyam registration based on investment and turnover declared by the government.
         </p>
 
         <h2>Mandatory requirements</h2>
@@ -90,15 +127,18 @@ export default function Services() {
           </li><li>100% FDI is allowed in a private limited company which means foreign investors can invest in the private limited companies directly.
           </li>
         </ul>
-        <h2>Disadvantages</h2>
+        <h2>
+          Types of enterprises under registration
+        </h2>
         <ul>
-          <li>A limited number of shareholders and members
-          </li><li>In a private limited company, the number of shareholders should not exceed 50, and members should not exceed 200.
-          </li><li>Restrictions on the transfer of shares and the stock exchange cannot display the PLC shares.
-          </li><li>It cannot allow the issuance of prospects to the public.
+
+          <li>Micro Enterprises – Businesses investments less than INR 1Cr; turnover between INR 1 Cr and a maximum of INR 5 Cr.
+          </li><li>Small Enterprises – Business investments less than INR 1Cr; turnover between INR 10 Cr and a maximum of INR 50 Cr.
+          </li><li>Medium Enterprises – Business investments less than INR 5Cr; turnover between INR 50 Cr and a maximum of INR 250 Cr.
 
           </li>
         </ul>
+
         <h2>
           Documents required for Private Limited Company Registration </h2>
         <ul>

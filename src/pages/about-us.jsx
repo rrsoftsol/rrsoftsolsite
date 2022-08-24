@@ -30,7 +30,7 @@ export default function Services() {
           <div class="col-lg-6">
             <h5 class="text-crr">ABOUT CRR CORPORATE SERVICES</h5>
             <h1 class="display-3 fw-bold lh-sm mb-3">Your Financial accounting partner.</h1>
-            <p class="lead">We are multidisciplinary team of accounting, tax and audit professionals with deep, sector-specific experience in wide spectrum of Industries.</p>
+            <p class="lead">We offer a range of services to meet the complex and evolving ACCOUNTING, TAX & COMPLIANCE challenges that you face on multiple fronts.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contact Us</button>
             </div>
@@ -43,8 +43,8 @@ export default function Services() {
 
           <div class="col-lg-6">
             <h3 class="text-crr">Our Vision</h3>
-            <h1 class="display-3 fw-bold lh-sm mb-3">We aim to disrupt the Corporate space.</h1>
-            <p class="lead">By helping companies get their entities formed correctly and managing their ongoing compliance, we hope to give founders their time back so they can focus on building products and services that matter.</p>
+            <h1 class="display-3 fw-bold lh-sm mb-3">ONE STOP SOLUTION</h1>
+            <p class="lead">Our Mission is to provide clients with the 'ONE STOP SOLUTION' for all their businesses, financial requirement.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contact Us</button>
             </div>

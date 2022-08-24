@@ -53,11 +53,6 @@ export default function Services() {
 
       <div class="container">
 
-        <h2>What is a private limited company?</h2>
-        <p>
-        A private limited company is a business entity held privately by shareholders. The liability is limited to the shares held by shareholders.
-        </p>
-
         <h2>Mandatory requirements</h2>
         <ul>
           <li>
@@ -135,7 +130,7 @@ export default function Services() {
 
           <div class="row py-2">
             <div class="col-md-1 text-muted display-6">
-              <span>{(index + 1).toString().padStart(2, '0')}</span></div>
+              <span>{(index+1).toString().padStart(2,'0')}</span></div>
 
             <div class="col-md-11">
 
