@@ -25,7 +25,7 @@ export default function Services() {
       <div className="container">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
-            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"></img>
+            <img src="/images/about.jpg" className="d-block mx-lg-auto img-fluid" alt="RR Softsol About us"></img>
           </div>
           <div className="col-lg-6">
             <h5 className="text-crr">ABOUT RR SOFTSOL</h5>
@@ -37,25 +37,24 @@ export default function Services() {
           </div>
         </div>
       </div>
+      <section id="values" class="values  text-center"><div class="container" >
+        <header class="section-header"><h2>Our Strory</h2>
+          <p>Odit est perspiciatis laboruxtet dicta</p></header>
+        <div class="row"><div class="col-lg-4">
+          <div class="p-4 shadow"> <img src="/images/values-1.png" class="p-5 img-fluid" alt=""></img>
+            <h3 className="text-primary"> Our Humble Beginnings</h3><p>
 
-      <div className="container">
-        <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-
-          <div className="col-lg-6">
-            <h3 className="text-crr">Our Vision</h3>
-            <h1 className="display-5 fw-bold lh-sm mb-3">ONE STOP SOLUTION</h1>
-            <p className="lead">Our Mission is to provide clients with the 'ONE STOP SOLUTION' for all their Digital Transfomration, Cloud Adoption requirement.</p>
-            <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Contact Us</button>
-            </div>
-          </div>
-
-          <div className="col-10 col-sm-8 col-lg-6">
-            <img src="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"></img>
-          </div>
-        </div>
-      </div>
-
+              Every entrepreneurial journey starts with inspiration from some source to someone and it takes a shape based on the vision and the passion of the team which comes together to accomplish their objective. Despite the fact that thousands of companies get started year on year, very few come to lime light and the glory of success, and accomplishment of objective.</p>
+          </div></div><div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="p-4 shadow"> <img src="/images/values-2.png" class="p-5 img-fluid" alt=""></img>
+              <h3 className="text-primary">A Company is Born</h3>
+              <p>
+                We a small team of entrepreneurs kept working for a considerable time on understanding the fact that there is a certain way by which the success follows, hundreds of book, thousands of articles from experts and proven track of history, all this has formed the basis for our passion to work in a certain way to get through the success.</p></div></div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="p-4 shadow"> <img src="/images/values-3.png" class="p-5 img-fluid" alt=""></img>
+              <h3 className="text-primary">Transition to Full Service.</h3>
+              <p>
+                This initiated us to start this company RR Softsol, which is robust with its passion to deliver quality solutions to our clients. We are too far from aspiring to be one of the leading companies, but every step we take forward; we keep our priority for a Happy Client List..</p></div></div></div></div></section>
       <div className="container">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-lg-12 text-center">
@@ -70,11 +69,11 @@ export default function Services() {
             <div className="col d-flex align-items-center">
 
               <div>
-              <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" className="bi bi-headset" viewBox="0 0 16 16">
-  <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
-</svg>
-            </div>
+                <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" className="bi bi-headset" viewBox="0 0 16 16">
+                    <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z" />
+                  </svg>
+                </div>
                 <h4 className="fw-bold mb-0">{item.title}</h4>
                 <p>{item.desc}</p>
               </div>

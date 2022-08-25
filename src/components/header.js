@@ -30,13 +30,13 @@ export default () => {
  
 
   return (
-    <header className="fixed-top bg-white py-3">
+    <header className="bg-softsol fixed-top py-3">
 
       <div className="container">
         <nav className="navbar navbar-expand-lg">
 
           <a href="/" title="CRR" className=" logo d-flex align-items-center col-md-4 mb-2 mb-md-0 text-dark text-decoration-none">
-            <img src="/images/logo.png" />
+            <img src="/images/logo-white.png" />
           </a>
           <button className="navbar-toggler" onClick={onClick} type="button">
             <span className="navbar-toggler-icon"></span>
@@ -44,8 +44,8 @@ export default () => {
           <div className={'collapse navbar-collapse flex-wrap align-items-center justify-content-md-center justify-content-md-between'+ (navbarOpen ? ' d-flex' : ' hidden')} >
 
             <ul className="navbar-nav nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-
-              <li className="dropdown"><a href="/services" className="nav-link fw-bold  px-3 link-dark">What we do</a>
+            <li><a href="/" className="nav-link fw-bold px-3 ">Home</a></li>
+              <li className="dropdown"><a href="/services" className="nav-link fw-bold  px-3 ">What we do</a>
                 <div className="dropdown-menu text-small shadow p-3" data-popper-placement="top-start">
                   <div className="row">
 
@@ -73,13 +73,12 @@ export default () => {
 
                 </div>
               </li>
-              <li><a href="/about-us" className="nav-link fw-bold px-3 link-dark">About Us</a></li>
-              <li><a href="/faq" className="nav-link fw-bold px-3 link-dark">FAQ</a></li>
-              <li><a href="/pricing" className="nav-link fw-bold px-3 link-dark">Pricing</a></li>
+              <li><a href="/about-us" className="nav-link fw-bold px-3 ">About Us</a></li>
+              <li><a href="/faq" className="nav-link fw-bold px-3 ">FAQ</a></li> 
             </ul>
 
             <div className="col-md-3 text-end">
-              <a href="/contact-us" className="btn btn-primary">Contact Us</a>
+              <a href="/contact-us" className="btn btn-outline-light">Contact Us</a>
             </div>
           </div>
         </nav>

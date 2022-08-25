@@ -1,11 +1,11 @@
 import React from "react";
 
 
-function FooterSection(links = []) { 
+function FooterSection(links = []) {
   return (
     <>
       {links.links.map((link, index) =>
-        <li key={index.toString()} className="nav-item mb-2"><a href={link.url} className="nav-link p-0 text-muted">{link.title}</a></li>
+        <li key={index.toString()} className="nav-item mb-2"><a href={link.url} className="nav-link p-0 ">{link.title}</a></li>
       )
       }
     </>
@@ -38,7 +38,7 @@ export default () => {
             title: "User Experience",
 
             url: "/services/user-experience"
-          } 
+          }
         ]
       }, {
         title: 'Company',
@@ -55,7 +55,7 @@ export default () => {
             <div className="col-lg-6 mx-auto">
               <p className="fs-5 mb-4">
                 Join uS now.</p>
-              <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <div className="d-md-grid gap-2 d-sm-flex justify-content-sm-center">
                 <button type="button" className="btn btn-primary btn-lg px-4 me-sm-3 fw-bold">Contact Us</button>
               </div>
             </div>
@@ -66,32 +66,18 @@ export default () => {
               <g transform="translate(300,300)"><path d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z" fill="currentColor"></path></g></svg></div>
         </div>
       </div>
-      <div className="footer">
+      <div className="footer bg-softsol text-white">
         <div className="container">
           <footer className="py-5">
             <div className="row">
-              <div className="col-md-4 mb-3">
+              <div className="col-md-3 mb-3">
                 <a href="/" title="RR Softsol" className=" logo d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                  <img src="/images/logo.png" />
+                  <img src="/images/logo-white.png" />
                 </a>
-                <div className="text-muted my-4"><div> Flat No: 501, MVS Heights</div><div>   Beside Balaji Temple, Vinayak Nagar,</div><div>  Madhapur-500081</div><div>  Landline: 9140-40050954</div><div>  Phone: +91-9985100360</div><div>  Email: info@rrsoftsol.in</div></div>
-              </div>
-              {
-                footerlinks.sections.map((section, index) =>
-                  <div key={index.toString()} className="col-6 col-md-4 mb-3">
-                    <h5>{section.title}</h5>
-                    <ul className="nav flex-column">
-                      <FooterSection links={section.links}></FooterSection>
-                    </ul>
-                  </div>
-                )
-              }
-
-
-            </div>
-            <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-              <p>© 2012 RR SoftSol. All Rights Reserved.</p>
-              <ul className="list-unstyled d-flex">
+                <div className=" my-4">
+                Our experience brings the right insight, technology and teamwork together to create outstanding digital experiences, every time.
+                </div>
+                <ul className="list-unstyled d-flex">
                 <li className="ms-3"><a className="link-dark" href="#"><svg className="bi" width="24" height="24">
                   <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                 </svg></a></li>
@@ -101,6 +87,28 @@ export default () => {
                   <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
                 </svg></a></li>
               </ul>
+              </div>
+              {
+                footerlinks.sections.map((section, index) =>
+                  <div key={index.toString()} className="col-6 col-md-3 mb-3">
+                    <h5>{section.title}</h5>
+                    <ul className="nav flex-column">
+                      <FooterSection links={section.links}></FooterSection>
+                    </ul>
+                  </div>
+                )
+              }
+              <div className="col-md-3 mb-3">
+                <h5>Contact Us</h5>
+                <div className=" my-4"><div> Flat No: 501, MVS Heights</div><div>   Beside Balaji Temple, Vinayak Nagar,</div>
+                <div>  Madhapur-500081</div>
+                <div className="pt-2">  <strong>Phone</strong>: 9140-40050954</div><div> <strong>Email</strong> : info@rrsoftsol.in</div></div>
+              </div>
+
+            </div>
+            <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+              <p>© 2012 RR SoftSol. All Rights Reserved.</p>
+             
             </div>
           </footer></div>
       </div>
