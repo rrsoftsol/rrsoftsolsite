@@ -66,7 +66,7 @@ export default function Services() {
         <div className="row row-cols-1 row-cols-sm-3 px-5 g-4 py-5 text-center">
 
           {iconGRid.map((item) =>
-            <div className="col d-flex align-items-center">
+            <div className="col d-flex justify-content-center align-items-center">
 
               <div>
                 <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">

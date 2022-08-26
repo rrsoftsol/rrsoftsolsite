@@ -1,9 +1,27 @@
 import Head from 'next/head'
 import Layout from "../../components/layout";
-import { Container, Row, Card, Button } from 'react-bootstrap'
+import Features from "../../components/features";
 
 export default function Services() {
- 
+
+  const features = [
+    {
+      title: "Modernize legacy apps and UX ",
+      desc: "Modernize and experience faster growth and benefits, using RR Softsol expertise in latest cutting edge technologies"
+    },
+    {
+      title: "Migrate to Cloud Native",
+      desc: "Begin with a Discovery & Envisioning Session to develop a roadmap that meets your budget, timeline, and motivations for cloud transformation."
+    },
+    {
+      title: "Introduce DevOps",
+      desc: "Quickly deploy apps with automated provisioning and scale them when needed."
+    },
+    {
+      title: "Agile Methodologies",
+      desc: "Using Agile Methodologies shrim the release lify cycle of your apps, and quickly make it to market."
+    }
+  ]
 
   return (
     <Layout>
@@ -11,10 +29,10 @@ export default function Services() {
       <div className="container">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
-            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"></img>
+            <img src="/images/about.jpg" className="d-block mx-lg-auto img-fluid" alt="Cloud Adoption"></img>
+
           </div>
           <div className="col-lg-6">
-            <h5 className="text-crr">Start Your Business</h5>
             <h1 className="display-3 fw-bold lh-sm mb-3">App Modernization.</h1>
             <p className="lead">We are We are engrossed in providing high quality and reliable consultancy services for company registration.</p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
@@ -23,7 +41,8 @@ export default function Services() {
           </div>
         </div>
       </div>
- 
+
+      <Features features={features}></Features>
 
     </Layout>
   )

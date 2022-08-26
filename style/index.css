@@ -8,6 +8,11 @@
 body{  
   padding-top: 104px; 
 }
+
+a {
+  color: #4154f1;
+  text-decoration: none;
+}
 .nav-link,
 .navbar .nav-link:hover,
 .navbar .active,
@@ -28,6 +33,95 @@ body{
 
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.section-header h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--bs-primary);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+ 
+.services .icon-box .icon {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    position: relative;
+}
+
+.services .icon-box .icon .bi {
+  z-index: 99;
+  position: absolute;
+}
+
+
+.services .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.services .icon-box:hover .bi path {
+  fill: #fff !important; 
+}
+
+.services .iconbox-blue .bi {
+  color: #47aeff;
+} 
+
+.services .iconbox-blue:hover .icon path {
+  fill: #47aeff;
+}
+
+.services .iconbox-orange .bi {
+  color: #ffa76e;
+}
+ 
+
+.services .iconbox-orange:hover .icon path {
+  fill: #ffa76e;
+}
+
+.services .iconbox-pink .bi {
+  color: #e80368;
+}
+ 
+.services .iconbox-pink:hover .icon path {
+  fill: #e80368;
+}
+
+.services .iconbox-yellow .bi {
+  color: #ffbb2c;
+} 
+.services .iconbox-yellow:hover .icon path {
+  fill: #ffbb2c;
+}
+.services .iconbox-red .bi {
+  color: #ff5828;
+}
+ 
+
+.services .iconbox-red:hover .icon path {
+  fill: #ff5828;
+}
+
+.services .iconbox-teal .bi {
+  color: #11dbcf;
+}
+ 
+
+.services .iconbox-teal:hover .icon path {
+  fill: #11dbcf;
 }
 
 @media (max-width: 575px),
@@ -97,7 +191,7 @@ body{
 
 .dropdown:hover .dropdown-menu {
   display: block;
-  width: 20rem;
+  width: 15rem;
 }
 
 .feature-icon {
