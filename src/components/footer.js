@@ -100,8 +100,9 @@ export default () => {
               }
               <div className="col-md-3 mb-3">
                 <h5>Contact Us</h5>
-                <div className=" my-4"><div> Flat No: 501, MVS Heights</div><div>   Beside Balaji Temple, Vinayak Nagar,</div>
-                <div>  Madhapur-500081</div>
+               <div className="my-4"><div>Plot  No.49B, Sairaj Towers</div>
+                <div> Beside Mercedes Benz Showroom</div>
+                <div>  Kavuri Hills, Hyderabad-500081</div>
                 <div className="pt-2">  <strong>Phone</strong>: 9140-40050954</div><div> <strong>Email</strong> : info@rrsoftsol.in</div></div>
               </div>
 

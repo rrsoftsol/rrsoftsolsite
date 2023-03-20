@@ -42,8 +42,13 @@ export default function Services() {
                   <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
                   <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                 </svg> </div>
-              <h3>Our Address</h3><div> Flat No: 501, MVS Heights</div><div>   Beside Balaji Temple, Vinayak Nagar,</div>
-              <div>  Madhapur-500081</div></div></div>
+              <h3>Our Address</h3>
+                <div>Plot  No.49B, Sairaj Towers</div>
+                <div> Beside Mercedes Benz Showroom</div>
+                <div>  Kavuri Hills, Hyderabad-500081</div>
+              
+              </div>
+              </div>
           <div className="col-lg-3 col-md-6"><div className="shadow p-5 mb-4">
             <div className="text-primary py-3">
               <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor" className="bi bi-envelope" viewBox="0 0 16 16">
@@ -59,7 +64,7 @@ export default function Services() {
         </div>
 
         <div className="row"><div className="col-lg-6 ">
-          <iframe className="mb-4 mb-lg-0 w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15224.286835082448!2d78.3867778!3d17.4562816!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xed69ee139fe15163!2sCRR%20Corporate%20Services!5e0!3m2!1sen!2sin!4v1661453575921!5m2!1sen!2sin"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <iframe className="mb-4 mb-lg-0 w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4362903011815!2d78.39198632401249!3d17.438819949818495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93a3778445e7%3A0xd267ce7c464853f5!2sRIYAREDDY%20SOFTSOL%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1679296014694!5m2!1sen!2sin"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>          
       </div>
                <div className="col-lg-6">
             <form action="forms/contact.php" method="post" role="form" className="shadow p-3">
