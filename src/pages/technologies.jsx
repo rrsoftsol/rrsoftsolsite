@@ -5,7 +5,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 export default function Services() {
 
-  const tech = [{ title: "Azure" }, { title: "Aws" }, { title: ".Net Core" }, { title: "Angular" }, { title: "React" }, { title: "Micro Services" },
+  const tech = [{ title: "Azure" }, { title: "Aws" },{ title: "SAP" },  { title: ".Net Core" }, { title: "Angular" }, { title: "React" }, { title: "Micro Services" },
 
   { title: "Jamstack websites" }, { title: "Apache Kafka" }, { title: "Micro Services" },]
 

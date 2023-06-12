@@ -103,7 +103,9 @@ export default () => {
                <div className="my-4"><div>Plot  No.49B, Sairaj Towers</div>
                 <div> Beside Mercedes Benz Showroom</div>
                 <div>  Kavuri Hills, Hyderabad-500081</div>
-                <div className="pt-2">  <strong>Phone</strong>: 9140-40050954</div><div> <strong>Email</strong> : info@rrsoftsol.in</div></div>
+                <div className="pt-2">  <strong>Phone</strong>: 18008892499</div>
+                <div className="pt-2">  <strong>Phone</strong>: 9140-40050954</div>
+                <div> <strong>Email</strong> : info@rrsoftsol.in</div></div>
               </div>
 
             </div>

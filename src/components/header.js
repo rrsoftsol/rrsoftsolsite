@@ -35,7 +35,7 @@ export default () => {
       <div className="container">
         <nav className="navbar navbar-expand-lg">
 
-          <a href="/" title="CRR" className=" logo d-flex align-items-center col-md-4 mb-2 mb-md-0 text-dark text-decoration-none">
+          <a href="/" title="RR Softsol" className=" logo d-flex align-items-center col-md-4 mb-2 mb-md-0 text-dark text-decoration-none">
             <img src="/images/logo-white.png" />
           </a>
           <button className="navbar-toggler" onClick={onClick} type="button">
